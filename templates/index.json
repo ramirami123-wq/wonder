@@ -259,6 +259,129 @@
         "vertical_spacing_factor": 1,
         "subheading": "OUR BOOKS"
       }
+    },
+    "collection_list_KtfimE": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_PqXjc6": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "frontpage",
+            "image": "shopify://shop_images/2-4.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 2-4",
+            "button_text": "View products",
+            "button_link": "shopify://collections/frontpage",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_izCFjy": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "4-6",
+            "image": "shopify://shop_images/4-6.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 4-6",
+            "button_text": "View products",
+            "button_link": "shopify://collections/4-6",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_HRyTkR": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "6-8",
+            "image": "shopify://shop_images/6-8.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 6-8",
+            "button_text": "View products",
+            "button_link": "shopify://collections/6-8",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_PqXjc6",
+        "collection_izCFjy",
+        "collection_HRyTkR"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Browse Stories by Age",
+        "content": ""
+      }
+    },
+    "faq_EXB86P": {
+      "type": "faq",
+      "blocks": {
+        "question_6UAFJY": {
+          "type": "question",
+          "settings": {
+            "question": "How do I place an order?",
+            "answer": "<p>It’s easy! Choose the book you want personalised, upload a photo of your child, and enter their name. You’ll then get a preview of the book. If you’re happy with it, just proceed to complete your order.</p>"
+          }
+        },
+        "question_KyJ4aY": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my orders?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 2-5 business days to arrive. </p>"
+          }
+        },
+        "question_46T8W9": {
+          "type": "question",
+          "settings": {
+            "question": "What is this product?",
+            "answer": "<p>This is a <strong>personalized children’s story</strong> where <strong>your child becomes the hero</strong>.<br/>Their <strong>name</strong> is included in the story, making reading more fun, emotional, and memorable.</p>"
+          }
+        },
+        "question_kMjmFe": {
+          "type": "question",
+          "settings": {
+            "question": "Is this a good gift?",
+            "answer": "<p>Absolutely!<br/><br/>It’s a <strong>unique, meaningful gift</strong> for:</p><ul><li>Birthdays 🎂<br/></li><li>Special occasions<br/></li><li>Or simply to make your child feel special 💫<br/></li></ul><p>Parents love it because it’s <strong>not just a book</strong>, it’s a memory.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_6UAFJY",
+        "question_KyJ4aY",
+        "question_46T8W9",
+        "question_kMjmFe"
+      ],
+      "name": "t:sections.faq.presets.faq.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "show_categories": false,
+        "subheading": "",
+        "title": "Frequently Asked Questions",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -267,6 +390,8 @@
     "steps_qUExCV",
     "featured_collections_kMX3xA",
     "scrolling_content_9LCNVq",
-    "featured_collections_xUN6h3"
+    "featured_collections_xUN6h3",
+    "collection_list_KtfimE",
+    "faq_EXB86P"
   ]
 }
