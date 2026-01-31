@@ -112,6 +112,38 @@
         "max_image_zoom_level": 3
       }
     },
+    "image_with_text_M9tAnx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HddKc3": {
+          "type": "heading",
+          "settings": {
+            "text": "Bring your child's imagination to life!",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Uqf3mw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Make them the hero of their own<br/>magical adventure with a hyper-personalised storybook!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HddKc3",
+        "richtext_Uqf3mw"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/footer_crop_image.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -128,10 +160,70 @@
         "title": "Related books",
         "content": ""
       }
+    },
+    "testimonials_BTEhJt": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_cJmJBi": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>I was surprised how engaged my son was. The illustrations are beautiful and the story is easy to follow. Highly recommended for kids.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "mona h."
+          }
+        },
+        "testimonial_bAwNy3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Great quality, nice colors, and a story that keeps kids interested without screens. Perfect as a gift.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Rana k."
+          }
+        },
+        "testimonial_7xicGL": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>The book arrived in great condition and my daughter loved it from the first page. We read it together every night now.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "nadine s."
+          }
+        },
+        "testimonial_fDMGqC": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Simple story, beautiful drawings, and good message. I’ll definitely order another one.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Josephine"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_cJmJBi",
+        "testimonial_bAwNy3",
+        "testimonial_7xicGL",
+        "testimonial_fDMGqC"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "TESTIMONIALS",
+        "content": ""
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "image_with_text_M9tAnx",
+    "related-products",
+    "testimonials_BTEhJt"
   ]
 }
