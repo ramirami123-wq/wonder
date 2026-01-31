@@ -50,10 +50,130 @@
         "vertical_spacing_factor": 1,
         "subheading": "Personalise a bestseller"
       }
+    },
+    "steps_qUExCV": {
+      "type": "steps",
+      "blocks": {
+        "step_RpMbWj": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_1.png",
+            "text": "<h3>Pick Storybook</h3>"
+          }
+        },
+        "step_cz7hkA": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_2_1.png",
+            "text": "<p>Add your Child's Picture</p>"
+          }
+        },
+        "step_eqBiKH": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_3.png",
+            "text": "<p>Complete Your Order</p>"
+          }
+        },
+        "step_EiaJgJ": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_4.png",
+            "text": "<p><strong>Your story is printed with care and delivered with joy.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_RpMbWj",
+        "step_cz7hkA",
+        "step_eqBiKH",
+        "step_EiaJgJ"
+      ],
+      "name": "SS - Steps #4",
+      "settings": {
+        "heading": "<h2>How WonderWraps Works</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 64,
+        "body_gap_mobile": 56,
+        "body_mt": 72,
+        "body_mt_mobile": 50,
+        "use_slider": true,
+        "slider_view_mobile": 1.3,
+        "slider_gap_mobile": 20,
+        "image_radius": 16,
+        "image_border_thickness": 2,
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "circle_number_size": 40,
+        "circle_number_size_mobile": 40,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 18,
+        "number_size_mobile": 18,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 130,
+        "text_mt": 24,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 70,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 14,
+        "button_padding_horizontal": 22,
+        "button_padding_horizontal_mobile": 22,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_style": "non_outline",
+        "image_border_color": "#7a2fd6",
+        "circle_number_bg_color": "#7a2fd6",
+        "number_color": "#FFFFFF",
+        "text_color": "#000000",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#7a2fd6",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
     "video_WVcFzw",
-    "featured_collections_tCprd8"
+    "featured_collections_tCprd8",
+    "steps_qUExCV"
   ]
 }
