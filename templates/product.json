@@ -80,16 +80,6 @@
             "page": ""
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
-          "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
-          }
-        },
         "liquid_bEVMfN": {
           "type": "liquid",
           "settings": {
@@ -107,7 +97,6 @@
         "buy_buttons",
         "description",
         "accordion_wUTjFy",
-        "complementary_products",
         "liquid_bEVMfN"
       ],
       "settings": {
