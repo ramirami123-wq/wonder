@@ -28,6 +28,7 @@
     },
     "video_jjriRj": {
       "type": "video",
+      "disabled": true,
       "name": "t:sections.video.presets.video.name",
       "settings": {
         "autoplay": true,
