@@ -11,6 +11,7 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "image_size": "auto",
@@ -36,6 +37,102 @@
         "video": "shopify://files/videos/video-preview.mp4",
         "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "text_color": "#ffffff"
+      }
+    },
+    "collection_list_7p3LDe": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_4UfzzV": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "frontpage",
+            "image": "shopify://shop_images/2-4.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 2-4",
+            "button_text": "View products",
+            "button_link": "shopify://collections/frontpage",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kA3xPV": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "4-6",
+            "image": "shopify://shop_images/4-6.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 4-6",
+            "button_text": "View products",
+            "button_link": "shopify://collections/4-6",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gYRgff": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "6-8",
+            "image": "shopify://shop_images/6-8.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 6-8",
+            "button_text": "View products",
+            "button_link": "shopify://collections/6-8",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_4UfzzV",
+        "collection_kA3xPV",
+        "collection_gYRgff"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Browse Stories by Age",
+        "content": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
       }
     },
     "steps_AHLpw6": {
@@ -156,32 +253,12 @@
         "border_thickness": 0,
         "lazy": true
       }
-    },
-    "main": {
-      "type": "main-collection",
-      "settings": {
-        "color_scheme": "",
-        "hide_product_information": false,
-        "products_per_page": 48,
-        "products_per_row_mobile": "2",
-        "products_size_desktop": "medium",
-        "show_grid_mode_selector": true,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "filter_layout": "sidebar",
-        "quick_links_menu": "",
-        "show_sort_by": true,
-        "show_filters": true,
-        "show_results_count": true,
-        "show_filter_group_name": false,
-        "show_filter_values_count": true,
-        "open_filters_by_default": false
-      }
     }
   },
   "order": [
     "collection-banner",
     "video_jjriRj",
+    "collection_list_7p3LDe",
     "main",
     "steps_AHLpw6"
   ]
