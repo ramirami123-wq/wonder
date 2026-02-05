@@ -33,7 +33,7 @@
         "liquid_dBTeJ7": {
           "type": "liquid",
           "settings": {
-            "liquid": "<b>💡 Encourages imagination & positive values<br><br>\n📖 Beautifully illustrated pages that keep kids engaged<br><br>\n🧠 Supports reading confidence & comprehension</b>"
+            "liquid": "<b>📚 Prepares kids with essential writing skills needed for school success<br><br>\n😊 Boosts your child’s confidence as they see real daily progress<br><br>\n♻ Fully reusable workbooks for endless mess-free practice</b>"
           }
         },
         "variant_picker": {
@@ -75,7 +75,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Book Specifications",
-            "content": "<p>Designed in a large A4 format with <strong>18 beautifully printed pages on premium 100g paper</strong>, made to feel as special as the story itself.</p>",
+            "content": "<p>This set includes <strong>4 reusable grooved handwriting workbooks</strong>, designed to help children practice writing easily and effectively. Each book measures <strong>13 x 19 cm</strong>, a perfect child-friendly size that is portable and comfortable to use. The books are <strong>workbook type</strong>, with <strong>10 inner pages per book</strong>, featuring guided grooved lines for accurate tracing and better handwriting control.</p><p>Thanks to the <strong>self-erasing ink technology</strong>, writing automatically fades after a short time, allowing kids to practice again and again without wasting paper. The durable pages and reusable design make these workbooks ideal for daily learning at home, school, or on the go.</p><p>A practical, mess-free, and eco-friendly learning tool that encourages continuous improvement.</p>",
             "liquid": "",
             "page": ""
           }
@@ -120,14 +120,14 @@
         "heading_HddKc3": {
           "type": "heading",
           "settings": {
-            "text": "Bring your child's imagination to life!",
+            "text": "Practice to Perfection",
             "heading_tag": "h1"
           }
         },
         "richtext_Uqf3mw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Make them the hero of their own<br/>magical adventure with a hyper-personalised storybook!</p>"
+            "content": "<p>Help your child build confident, beautiful handwriting the smart way. These grooved self-erasing workbooks guide every stroke, turning shaky letters into neat, controlled writing.</p>"
           }
         }
       },
@@ -139,7 +139,7 @@
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/footer_crop_image.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Feb_5_2026_10_07_10_PM.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -152,7 +152,7 @@
         "text_U6QajX": {
           "type": "text",
           "settings": {
-            "text": "FREE DELIVERY FOR ORDERS ABOVE 35$"
+            "text": "FREE DELIVERY ALL OVER LEBANON"
           }
         }
       },
@@ -214,6 +214,7 @@
         "step_HF9ptC",
         "step_piX7YA"
       ],
+      "disabled": true,
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How WonderWraps Works</h2>",
@@ -295,13 +296,56 @@
         "lazy": true
       }
     },
+    "before_after_6pCqYn": {
+      "type": "before-after",
+      "blocks": {
+        "before_awJjjP": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ChatGPT_Image_Feb_5_2026_10_17_01_PM.png",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_38QdTH": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify://shop_images/ChatGPT_Image_Feb_5_2026_10_17_31_PM.png",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_awJjjP",
+        "after_38QdTH"
+      ],
+      "name": "t:sections.before_after.presets.before_after.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "1st VS 2nd WEEK",
+        "content": "",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    },
     "testimonials_BTEhJt": {
       "type": "testimonials",
       "blocks": {
         "testimonial_cJmJBi": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>I was surprised how engaged my son was. The illustrations are beautiful and the story is easy to follow. Highly recommended for kids.</p>",
+            "content": "<p>I was shocked at how fast this worked. His letters are clearer, and he actually enjoys practicing now</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": "mona h."
@@ -310,7 +354,7 @@
         "testimonial_bAwNy3": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Great quality, nice colors, and a story that keeps kids interested without screens. Perfect as a gift.</p>",
+            "content": "<p>My daughter hated normal notebooks. With these reusable books, she practices every day without complaining.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": "Rana k."
@@ -319,7 +363,7 @@
         "testimonial_7xicGL": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>The book arrived in great condition and my daughter loved it from the first page. We read it together every night now.</p>",
+            "content": "<p>The self-erasing feature is amazing. We save so much paper and my kids can practice again and again.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": "nadine s."
@@ -328,7 +372,7 @@
         "testimonial_fDMGqC": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>Simple story, beautiful drawings, and good message. I’ll definitely order another one.</p>",
+            "content": "<p>These books helped my little boy feel confident before starting kindergarten. Highly recommended!</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
             "author": "Josephine"
@@ -355,6 +399,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
@@ -376,6 +421,7 @@
     "image_with_text_M9tAnx",
     "scrolling_content_NGWbKx",
     "steps_iEaAPP",
+    "before_after_6pCqYn",
     "testimonials_BTEhJt",
     "related-products"
   ]
