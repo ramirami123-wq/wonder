@@ -295,6 +295,19 @@
         "lazy": true
       }
     },
+    "image_with_text_FkapYg": {
+      "type": "image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_4_2026_11_47_36_PM.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
     "testimonials_BTEhJt": {
       "type": "testimonials",
       "blocks": {
@@ -373,6 +386,7 @@
   },
   "order": [
     "main",
+    "image_with_text_FkapYg",
     "image_with_text_M9tAnx",
     "scrolling_content_NGWbKx",
     "steps_iEaAPP",
