@@ -472,5 +472,17 @@
       "view_products": "View products",
       "view_product": "View product"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "alternative_payment_method_banner": {
+        "or": "hye test",
+        "or_pay_another_way": "hye test",
+        "or_check_out_another_way": "hye test",
+        "or_pay_with_credit_card": "hye test",
+        "show_more_options": "hye test",
+        "hide_more_options": "hye test"
+      }
+    }
   }
 }
