@@ -30,6 +30,12 @@
             "show_taxes_notice": false
           }
         },
+        "liquid_LJmC4N": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<span style=\"background-color: #e63946; color: #fff; font-size: 12px; font-weight: bold; padding: 5px 8px; border-radius: 12px; \">\n  35% OFF\n</span>"
+          }
+        },
         "liquid_dBTeJ7": {
           "type": "liquid",
           "settings": {
@@ -91,6 +97,7 @@
         "text_zDcbFq",
         "title",
         "price",
+        "liquid_LJmC4N",
         "liquid_dBTeJ7",
         "variant_picker",
         "quantity_selector",
