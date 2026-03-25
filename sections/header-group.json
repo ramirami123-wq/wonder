@@ -58,10 +58,23 @@
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
       }
+    },
+    "custom_liquid_683qJV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div id=\"announcement-bar\" style=\"background:#1a1a1a;padding:0 20px;display:flex;align-items:center;justify-content:center;gap:16px;height:44px;font-family:'Arial Black',Arial,sans-serif;\">\n  <span style=\"color:#fff;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap;\">\n    ⚡ Sale ends in\n  </span>\n  <div style=\"display:flex;align-items:center;gap:4px;\">\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-hrs\">00</div>\n    <span style=\"color:#fff;font-weight:900;font-size:16px;\">:</span>\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-min\">00</div>\n    <span style=\"color:#fff;font-weight:900;font-size:16px;\">:</span>\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-sec\">00</div>\n  </div>\n</div>\n\n<script>\n(function() {\n  // SET YOUR END DATE/TIME HERE (local time)\n  var endTime = new Date();\n  endTime.setHours(endTime.getHours() + 11);\n  endTime.setMinutes(endTime.getMinutes() + 10);\n  endTime.setSeconds(endTime.getSeconds() + 21);\n\n  // To set a fixed deadline instead, replace the above with:\n  // var endTime = new Date(\"2026-04-01T23:59:59\");\n\n  function update() {\n    var now = new Date();\n    var diff = Math.max(0, endTime - now);\n    var h = Math.floor(diff / 3600000);\n    var m = Math.floor((diff % 3600000) / 60000);\n    var s = Math.floor((diff % 60000) / 1000);\n    document.getElementById('ab-hrs').textContent = String(h).padStart(2,'0');\n    document.getElementById('ab-min').textContent = String(m).padStart(2,'0');\n    document.getElementById('ab-sec').textContent = String(s).padStart(2,'0');\n    if (diff > 0) setTimeout(update, 1000);\n  }\n  update();\n})();\n</script>",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
     "announcement-bar",
+    "custom_liquid_683qJV",
     "header"
   ]
 }
