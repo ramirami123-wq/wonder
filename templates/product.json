@@ -135,7 +135,7 @@
         "subheading_6GPLgk": {
           "type": "subheading",
           "settings": {
-            "text": "BEFORE AND AFTER EXAMPLE"
+            "text": "BEFORE AND AFTER EXAMPLES"
           }
         }
       },
@@ -158,6 +158,19 @@
         "color_scheme": "",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/ChatGPT_Image_Mar_4_2026_11_47_36_PM.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_zYhpaE": {
+      "type": "image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_27_2026_01_35_14_AM.png",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -425,6 +438,7 @@
     "main",
     "rich_text_TGU7rn",
     "image_with_text_FkapYg",
+    "image_with_text_zYhpaE",
     "image_with_text_M9tAnx",
     "scrolling_content_NGWbKx",
     "steps_iEaAPP",
