@@ -32,6 +32,7 @@
         },
         "liquid_tcLDix": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div style=\"padding: 8px 12px; text-align: left; background-color: #f5f5f5; font-size: 12px; border-radius: 8px; margin-top: 6px; margin-bottom: 6px; display: flex; align-items: center; width: 85%; gap: 10px;\">\n\n  <span style=\"flex-shrink: 0;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0974/1192/4279/files/ChatGPT_Image_Mar_25_2026_03_45_21_PM.png?v=1774446376\" alt=\"Digital Colouring Book\" style=\"height: 50px; border-radius: 6px; display: block;\">\n  </span>\n\n  <span style=\"flex: 1; line-height: 1.4; color: #111;\">\n    <strong>FREE Printable Colouring Book</strong> with every purchase<br>\n    <span style=\"text-decoration: line-through; color: #888;\">$9.00</span>\n    <span style=\"font-weight: bold; color: #27ae60; margin-left: 4px;\">FREE</span>\n  </span>\n\n</div>"
           }
@@ -75,6 +76,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_H8r7NJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n  .gifts-row {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 6px;\n  }\n\n  .gift-card {\n    width: 100%;\n    border: 2px dashed #f5a623;\n    border-radius: 10px;\n    padding: 10px 4px 8px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    background: #fff;\n    box-sizing: border-box;\n    min-height: 88px;\n  }\n\n  .gift-img {\n    width: 42px;\n    height: 42px;\n    object-fit: contain;\n    border-radius: 6px;\n  }\n\n  .gift-icon {\n    font-size: 28px;\n    line-height: 1;\n  }\n\n  .gift-name {\n    font-size: 9px;\n    font-weight: 600;\n    color: #111;\n    text-align: center;\n    line-height: 1.2;\n  }\n\n  .gift-badge {\n    position: absolute;\n    top: -10px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: #e74c3c;\n    color: #fff;\n    font-size: 7px;\n    font-weight: 700;\n    padding: 2px 4px;\n    border-radius: 4px;\n    white-space: nowrap;\n  }\n</style>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -110,6 +117,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "liquid_H8r7NJ",
         "description",
         "accordion_wUTjFy",
         "liquid_bEVMfN"
