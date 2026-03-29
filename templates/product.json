@@ -26,8 +26,15 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "liquid_hc9pPL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display:inline-flex; align-items:center; gap:10px; font-family:'Barlow',Arial,sans-serif;\">\n  <span style=\"font-size:16px; color:#999; text-decoration:line-through;\">$38.00</span>\n  <span style=\"font-size:22px; font-weight:600; color:#e02020;\">$29.99</span>\n  <span style=\"background:#020049; color:#fff; font-size:12px; font-weight:700; padding:4px 10px; border-radius:50px;\">SAVE 21%</span>\n</div>"
           }
         },
         "liquid_tcLDix": {
@@ -111,6 +118,7 @@
         "text_zDcbFq",
         "title",
         "price",
+        "liquid_hc9pPL",
         "liquid_tcLDix",
         "liquid_LJmC4N",
         "liquid_dBTeJ7",
