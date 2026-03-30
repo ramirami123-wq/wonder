@@ -151,14 +151,14 @@
         "heading_HddKc3": {
           "type": "heading",
           "settings": {
-            "text": "Bring your child's imagination to life!",
+            "text": "Color Your Stress Away",
             "heading_tag": "h1"
           }
         },
         "richtext_Uqf3mw": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Make them the hero of their own<br/>magical adventure with a hyper-personalised storybook!</p>"
+            "content": "<p><em>Some days are just too much. Too loud, too busy, too everything.</em></p><p><em>Grab your colors, find your corner, and just… breathe. 25 cozy pages waiting for you.</em></p>"
           }
         }
       },
@@ -166,14 +166,15 @@
         "heading_HddKc3",
         "richtext_Uqf3mw"
       ],
+      "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/footer_crop_image.png",
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_30_2026_01_56_08_PM.png",
         "reveal_on_scroll": true,
         "image_position": "start",
-        "content_width": "sm",
+        "content_width": "md",
         "remove_vertical_spacing": true
       }
     },
