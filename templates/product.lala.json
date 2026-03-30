@@ -1,0 +1,478 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_zDcbFq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>⭐⭐⭐⭐⭐ rated by 589+ customers</p>"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "liquid_hc9pPL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display:inline-flex; align-items:center; gap:10px; font-family:'Barlow',Arial,sans-serif;\">\n  <span style=\"font-size:16px; color:#999; text-decoration:line-through;\">$38.00</span>\n  <span style=\"font-size:22px; font-weight:600; color:#e02020;\">$29.99</span>\n  <span style=\"background:#020049; color:#fff; font-size:12px; font-weight:700; padding:4px 10px; border-radius:50px;\">SAVE 21%</span>\n</div>"
+          }
+        },
+        "liquid_tcLDix": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<div style=\"padding: 8px 12px; text-align: left; background-color: #f5f5f5; font-size: 12px; border-radius: 8px; margin-top: 6px; margin-bottom: 6px; display: flex; align-items: center; width: 85%; gap: 10px;\">\n\n  <span style=\"flex-shrink: 0;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0974/1192/4279/files/ChatGPT_Image_Mar_25_2026_03_45_21_PM.png?v=1774446376\" alt=\"Digital Colouring Book\" style=\"height: 50px; border-radius: 6px; display: block;\">\n  </span>\n\n  <span style=\"flex: 1; line-height: 1.4; color: #111;\">\n    <strong>FREE Printable Colouring Book</strong> with every purchase<br>\n    <span style=\"text-decoration: line-through; color: #888;\">$9.00</span>\n    <span style=\"font-weight: bold; color: #27ae60; margin-left: 4px;\">FREE</span>\n  </span>\n\n</div>"
+          }
+        },
+        "liquid_LJmC4N": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<span style=\"background-color: #e63946; color: #fff; font-size: 12px; font-weight: bold; padding: 5px 8px; border-radius: 12px; \">\n  35% OFF\n</span>"
+          }
+        },
+        "liquid_dBTeJ7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<b>💡 Encourages imagination & positive values<br><br>\n📖 Beautifully illustrated pages that keep kids engaged<br><br>\n🧠 Supports reading confidence & comprehension</b>"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "#7a2fd6",
+            "atc_button_text_color": "#ffffff",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "liquid_H8r7NJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .gifts-section {\n    background: #fff8e7;\n    padding: 16px 14px 18px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n  }\n\n  .gifts-header {\n    margin-bottom: 20px;\n  }\n\n  .gifts-title {\n    font-size: 14px;\n    font-weight: 700;\n    color: #111;\n    margin: 0 0 4px;\n  }\n\n  .gifts-subtitle {\n    font-size: 15px;\n    font-weight: 800;\n    color: #111;\n  }\n\n  .gifts-row {\n    display: grid;\n    grid-template-columns: repeat(4, 1fr);\n    gap: 6px;\n  }\n\n  .gift-item {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 8px;\n    min-width: 0;\n  }\n\n  .gift-card {\n    width: 100%;\n    border: 2px dashed #f5a623;\n    border-radius: 10px;\n    padding: 10px 4px 8px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    background: #fff;\n    box-sizing: border-box;\n    min-height: 88px;\n  }\n\n  .gift-badge {\n    position: absolute;\n    top: -10px;\n    left: 50%;\n    transform: translateX(-50%);\n    background: #e74c3c;\n    color: #fff;\n    font-size: 7px;\n    font-weight: 700;\n    padding: 2px 4px;\n    border-radius: 4px;\n    white-space: nowrap;\n    font-family: 'Barlow', Arial, sans-serif;\n  }\n\n  .gift-badge s {\n    opacity: 0.75;\n  }\n\n  .gift-img {\n    width: 42px;\n    height: 42px;\n    object-fit: contain;\n    border-radius: 6px;\n  }\n\n  .gift-icon {\n    font-size: 28px;\n    line-height: 1;\n  }\n\n  .gift-name {\n    font-size: 9px;\n    font-weight: 600;\n    color: #111;\n    text-align: center;\n    line-height: 1.2;\n  }\n\n  @media (min-width: 768px) {\n    .gifts-row {\n      gap: 10px;\n    }\n\n    .gift-card {\n      min-height: 110px;\n      padding: 14px 6px 10px;\n    }\n\n    .gift-img {\n      width: 70px;\n      height: 70px;\n      border-radius: 8px;\n    }\n\n    .gift-icon {\n      font-size: 42px;\n    }\n\n    .gift-name {\n      font-size: 11px;\n      line-height: 1.3;\n    }\n\n    .gift-badge {\n      top: -12px;\n      font-size: 10px;\n      padding: 3px 8px;\n      border-radius: 5px;\n    }\n  }\n</style>\n\n<div class=\"gifts-section\">\n\n  <div class=\"gifts-header\">\n    <p class=\"gifts-title\">🎁 SPRING SPECIAL 🎁</p>\n    <p class=\"gifts-subtitle\">Exclusive FREE Gifts on Orders by <span id=\"gifts-date\"></span></p>\n  </div>\n\n  <div class=\"gifts-row\">\n\n    <div class=\"gift-item\">\n      <div class=\"gift-card\">\n        <span class=\"gift-badge\">FREE <s>$9.95</s></span>\n        <img class=\"gift-img\" src=\"https://cdn.shopify.com/s/files/1/0974/1192/4279/files/ChatGPT_Image_Mar_25_2026_03_45_21_PM.png?v=1774446376\" alt=\"Printable Coloring Book\">\n      </div>\n      <span class=\"gift-name\">Printable Coloring Book</span>\n    </div>\n\n    <div class=\"gift-item\">\n      <div class=\"gift-card\">\n        <span class=\"gift-badge\">FREE <s>$12</s></span>\n        <img class=\"gift-img\" src=\"https://cdn.shopify.com/s/files/1/0974/1192/4279/files/ChatGPT_Image_Mar_27_2026_09_03_17_PM.png?v=1774638517\" alt=\"Bedtime Routine Ebook\">\n      </div>\n      <span class=\"gift-name\">Bedtime Routine Ebook</span>\n    </div>\n\n    <div class=\"gift-item\">\n      <div class=\"gift-card\">\n        <span class=\"gift-badge\">FREE <s>$14.95</s></span>\n        <img class=\"gift-img\" src=\"https://cdn.shopify.com/s/files/1/0974/1192/4279/files/certificate.png?v=1774638469\" alt=\"Hero Certificate\">\n      </div>\n      <span class=\"gift-name\">Digital Hero Certificate</span>\n    </div>\n\n    <div class=\"gift-item\">\n      <div class=\"gift-card\">\n        <span class=\"gift-badge\">FREE <s>$8</s></span>\n        <div class=\"gift-icon\">🎁</div>\n      </div>\n      <span class=\"gift-name\">Mystery Gift</span>\n    </div>\n\n  </div>\n\n</div>\n\n<script>\n  function getLebanonDate() {\n    const now = new Date();\n    const lebanon = new Date(now.toLocaleString(\"en-US\", { timeZone: \"Asia/Beirut\" }));\n    const days = [\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"];\n    const months = [\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sep\",\"Oct\",\"Nov\",\"Dec\"];\n    const dayName = days[lebanon.getDay()];\n    const month = months[lebanon.getMonth()];\n    const day = lebanon.getDate();\n\n    function ordinal(n) {\n      if (n > 3 && n < 21) return n + \"th\";\n      switch (n % 10) {\n        case 1: return n + \"st\";\n        case 2: return n + \"nd\";\n        case 3: return n + \"rd\";\n        default: return n + \"th\";\n      }\n    }\n\n    document.getElementById('gifts-date').textContent = dayName + \", \" + month + \". \" + ordinal(day);\n  }\n\n  getLebanonDate();\n\n  function scheduleNextUpdate() {\n    const now = new Date();\n    const lebanon = new Date(now.toLocaleString(\"en-US\", { timeZone: \"Asia/Beirut\" }));\n    const msUntilMidnight =\n      ((24 - lebanon.getHours()) * 3600 * 1000)\n      - (lebanon.getMinutes() * 60 * 1000)\n      - (lebanon.getSeconds() * 1000)\n      + (1 * 60 * 1000);\n\n    setTimeout(function() {\n      getLebanonDate();\n      scheduleNextUpdate();\n    }, msUntilMidnight);\n  }\n\n  scheduleNextUpdate();\n</script>"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": true,
+            "show_below_gallery": false
+          }
+        },
+        "accordion_wUTjFy": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": true,
+            "icon": "none",
+            "title": "Book Specifications",
+            "content": "<p>Designed in a large 20x20 format with <strong>25 beautifully printed pages on premium 50g paper</strong>, made to feel as special as the story itself.</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "liquid_bEVMfN": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\"> \n    <span class=\"em\" style=\"margin-right: 8px;\">\n        <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n            <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n        </svg> \n    </span>\n    <span>\n        Order now to receive by\n        <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span>\n    </span>\n</div>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function () {\n    var currentDate = new Date();\n\n    var minDeliveryDate = new Date(currentDate);\n    minDeliveryDate.setDate(currentDate.getDate() + 5);\n\n    var maxDeliveryDate = new Date(currentDate);\n    maxDeliveryDate.setDate(currentDate.getDate() + 7);\n\n    function formatDate(date) {\n        var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n        var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n            \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n        ];\n\n        return dayNames[date.getDay()] + \", \" + monthNames[date.getMonth()] + \" \" + date.getDate();\n    }\n\n    document.getElementById('delivery-dates').textContent =\n        formatDate(minDeliveryDate) + \" – \" + formatDate(maxDeliveryDate);\n});\n</script>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zDcbFq",
+        "title",
+        "price",
+        "liquid_hc9pPL",
+        "liquid_tcLDix",
+        "liquid_LJmC4N",
+        "liquid_dBTeJ7",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "liquid_H8r7NJ",
+        "description",
+        "accordion_wUTjFy",
+        "liquid_bEVMfN"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "container_size": "lg",
+        "product_info_size": 35,
+        "show_sticky_add_to_cart": true,
+        "center_basic_info": false,
+        "desktop_media_layout": "grid",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "thumbnails",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3
+      }
+    },
+    "rich_text_TGU7rn": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_6GPLgk": {
+          "type": "subheading",
+          "settings": {
+            "text": "BEFORE AND AFTER EXAMPLES"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6GPLgk"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_FkapYg": {
+      "type": "image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_4_2026_11_47_36_PM.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_zYhpaE": {
+      "type": "image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/ChatGPT_Image_Mar_27_2026_01_35_14_AM.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_M9tAnx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HddKc3": {
+          "type": "heading",
+          "settings": {
+            "text": "Bring your child's imagination to life!",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Uqf3mw": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Make them the hero of their own<br/>magical adventure with a hyper-personalised storybook!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HddKc3",
+        "richtext_Uqf3mw"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/footer_crop_image.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "scrolling_content_NGWbKx": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_U6QajX": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY FOR ORDERS ABOVE 34$"
+          }
+        }
+      },
+      "block_order": [
+        "text_U6QajX"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": false,
+        "text_font": "heading",
+        "text_font_size_mobile": 14,
+        "text_font_size_desktop": 34,
+        "section_vertical_spacing_mobile": 16,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 30,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "#7a2fd6",
+        "text_color": "#ffffff"
+      }
+    },
+    "steps_iEaAPP": {
+      "type": "steps",
+      "blocks": {
+        "step_z7r3Ut": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_1.png",
+            "text": "<h3>Pick Storybook</h3>"
+          }
+        },
+        "step_DNAWqi": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_2_1.png",
+            "text": "<p>Add your Child's Picture</p>"
+          }
+        },
+        "step_HF9ptC": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_3.png",
+            "text": "<p>Complete Your Order</p>"
+          }
+        },
+        "step_piX7YA": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_4.png",
+            "text": "<p><strong>Your story is printed with care and delivered with joy.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_z7r3Ut",
+        "step_DNAWqi",
+        "step_HF9ptC",
+        "step_piX7YA"
+      ],
+      "name": "SS - Steps #4",
+      "settings": {
+        "heading": "<h2>How DreamStories Works</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 64,
+        "body_gap_mobile": 56,
+        "body_mt": 72,
+        "body_mt_mobile": 50,
+        "use_slider": false,
+        "slider_view_mobile": 1.3,
+        "slider_gap_mobile": 20,
+        "image_radius": 16,
+        "image_border_thickness": 2,
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "circle_number_size": 40,
+        "circle_number_size_mobile": 40,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 18,
+        "number_size_mobile": 18,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 130,
+        "text_mt": 24,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 70,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 14,
+        "button_padding_horizontal": 22,
+        "button_padding_horizontal_mobile": 22,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_style": "non_outline",
+        "image_border_color": "#7a2fd6",
+        "circle_number_bg_color": "#7a2fd6",
+        "number_color": "#ffffff",
+        "text_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#7a2fd6",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "testimonials_BTEhJt": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_cJmJBi": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>I was surprised how engaged my son was. The illustrations are beautiful and the story is easy to follow. Highly recommended for kids.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "mona h."
+          }
+        },
+        "testimonial_bAwNy3": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Great quality, nice colors, and a story that keeps kids interested without screens. Perfect as a gift.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Rana k."
+          }
+        },
+        "testimonial_7xicGL": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>The book arrived in great condition and my daughter loved it from the first page. We read it together every night now.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "nadine s."
+          }
+        },
+        "testimonial_fDMGqC": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Simple story, beautiful drawings, and good message. I’ll definitely order another one.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Josephine"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_cJmJBi",
+        "testimonial_bAwNy3",
+        "testimonial_7xicGL",
+        "testimonial_fDMGqC"
+      ],
+      "disabled": true,
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "TESTIMONIALS",
+        "content": ""
+      }
+    },
+    "custom_liquid_NgB3Di": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<link href=\"https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap\" rel=\"stylesheet\">\n\n<style>\n  .reviews-section {\n    background: #fffff;\n    padding: 32px 16px;\n    width: 100%;\n    box-sizing: border-box;\n    font-family: 'Barlow', Arial, sans-serif;\n    text-align: center;\n  }\n\n  .reviews-stars-row {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    margin-bottom: 12px;\n  }\n\n  .reviews-stars {\n    color: #020049;\n    font-size: 20px;\n    letter-spacing: 2px;\n  }\n\n  .reviews-rating-text {\n    font-size: 15px;\n    font-weight: 400;\n    color: #333;\n  }\n\n  .reviews-title {\n    font-size: 28px;\n    font-weight: 900;\n    color: #111;\n    text-transform: uppercase;\n    line-height: 1.1;\n    margin: 0 0 24px;\n    letter-spacing: 0.02em;\n  }\n\n  .reviews-tabs {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 10px;\n    justify-content: center;\n    margin-bottom: 28px;\n  }\n\n  .reviews-tab {\n    padding: 10px 20px;\n    border-radius: 50px;\n    border: 2px solid #ccc;\n    background: #fff;\n    font-size: 14px;\n    font-weight: 700;\n    color: #111;\n    cursor: pointer;\n    transition: all 0.2s ease;\n    font-family: 'Barlow', Arial, sans-serif;\n  }\n\n  .reviews-tab:hover {\n    border-color: #e07b2a;\n    color: #e07b2a;\n  }\n\n  .reviews-tab.active {\n    background: #020049;\n    border-color: #020049;\n    color: #fff;\n  }\n\n  .reviews-grid {\n    display: grid;\n    grid-template-columns: repeat(3, 1fr);\n    gap: 24px;\n    max-width: 1000px;\n    margin: 0 auto 24px;\n  }\n\n  .review-card {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 10px;\n    padding: 0 12px;\n    border-right: 1px solid #f5d9b8;\n  }\n\n  .review-card:last-child {\n    border-right: none;\n  }\n\n  .review-card-stars {\n    color: #f5a623;\n    font-size: 18px;\n    letter-spacing: 2px;\n  }\n\n  .review-card-text {\n    font-size: 14px;\n    font-weight: 400;\n    color: #222;\n    line-height: 1.6;\n    text-align: center;\n  }\n\n  .review-card-author {\n    font-size: 14px;\n    font-weight: 700;\n    color: #111;\n    margin-top: 6px;\n  }\n\n  .reviews-dots {\n    display: flex;\n    justify-content: center;\n    gap: 6px;\n    margin-top: 8px;\n  }\n\n  .reviews-dot {\n    width: 8px;\n    height: 8px;\n    border-radius: 50%;\n    background: #ccc;\n    cursor: pointer;\n    transition: background 0.2s;\n  }\n\n  .reviews-dot.active {\n    background: #e07b2a;\n  }\n\n  @media (max-width: 599px) {\n    .reviews-title {\n      font-size: 18px;\n    }\n    .reviews-grid {\n      grid-template-columns: 1fr;\n      gap: 20px;\n    }\n    .review-card {\n      border-right: none;\n      border-bottom: 1px solid #f5d9b8;\n      padding-bottom: 20px;\n    }\n    .review-card:last-child {\n      border-bottom: none;\n    }\n    .reviews-tab {\n      font-size: 12px;\n      padding: 8px 14px;\n    }\n  }\n</style>\n\n<div class=\"reviews-section\">\n\n  <div class=\"reviews-stars-row\">\n    <span class=\"reviews-stars\">★★★★★</span>\n    <span class=\"reviews-rating-text\">4.9 stars </span>\n  </div>\n\n  <h2 class=\"reviews-title\">Real Kids. Real Smiles. Real Magic.</h2>\n\n  <div class=\"reviews-tabs\">\n    <button class=\"reviews-tab active\" onclick=\"switchTab('reaction', event)\">Their Reaction 😍</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('quality', event)\">Print Quality</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('photo', event)\">The Photo Magic</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('delivery', event)\">Delivery</button>\n    <button class=\"reviews-tab\" onclick=\"switchTab('gift', event)\">As a Gift</button>\n  </div>\n\n  <div class=\"reviews-grid\" id=\"reviews-grid\"></div>\n  <div class=\"reviews-dots\" id=\"reviews-dots\"></div>\n\n</div>\n\n<script>\n  const allReviews = {\n    reaction: [\n      { text: \"My son saw his face on the cover and literally screamed 'MAMA THAT'S ME!' I cried. Worth every penny.\", author: \"Nour K., Beirut\" },\n      { text: \"My daughter carries this book everywhere. She makes us read it every single night. She's obsessed.\", author: \"Rima H., Jounieh\" },\n      { text: \"Ordered the dragon book for my boy's birthday. When he opened it his jaw dropped. Best reaction I've ever seen.\", author: \"Lara M., Tripoli\" },\n      { text: \"My daughter didn't believe a book could have HER in it. When she saw it she went completely silent then burst into the biggest smile.\", author: \"Sara A., Saida\" },\n      { text: \"He ran to show his dad before we even finished unwrapping it. 'Baba baba look it's ME!' — we still talk about that moment.\", author: \"Dina F., Achrafieh\" },\n      { text: \"I ordered it thinking it'd be cute. I did not expect my child to treat it like the most precious thing she owns.\", author: \"Maya R., Batroun\" },\n    ],\n    quality: [\n      { text: \"The print quality is genuinely impressive. The colors are vivid, the pages are thick — it feels like a real published book.\", author: \"Joelle B., Beirut\" },\n      { text: \"I was worried it would look like a cheap printout. It doesn't. It looks professional. My mother-in-law thought I bought it from a bookstore.\", author: \"Hana S., Zahle\" },\n      { text: \"The cover is hardcover quality, the illustrations are beautiful. My daughter has read it 50 times and it still looks new.\", author: \"Tanya M., Byblos\" },\n      { text: \"Pages are thick, colors are sharp, binding is solid. This is not a flimsy product — it's a proper keepsake.\", author: \"Celine A., Mar Mikhael\" },\n      { text: \"My son is rough with his books. Three months later this one is still perfect. Great durability.\", author: \"Nadine T., Hamra\" },\n      { text: \"The illustrations are so detailed and the personalization blends in seamlessly. You'd never know it was added — it looks natural.\", author: \"Rana K., Antelias\" },\n    ],\n    photo: [\n      { text: \"I sent a regular phone photo and the result was incredible. My daughter's face fits so naturally into the illustrations.\", author: \"Mona G., Beirut\" },\n      { text: \"Was nervous because I only had one good photo of my son. It came out perfectly. The team clearly put effort into it.\", author: \"Rita S., Dbayeh\" },\n      { text: \"The way they work the child's photo into the drawings is so clever. It's not just pasted on — it's actually illustrated to match.\", author: \"Lea J., Jounieh\" },\n      { text: \"My daughter has curly hair and I was worried it wouldn't look right. They nailed it. She looks exactly like herself in the story.\", author: \"Carla N., Rabieh\" },\n      { text: \"I sent a photo from a birthday party where the lighting wasn't perfect. Still came out beautiful. Really impressed.\", author: \"Yasmine F., Dekwaneh\" },\n      { text: \"The personalization makes such a difference. My son went from 'meh' about reading to asking for his book every bedtime.\", author: \"Mirna L., Baabda\" },\n    ],\n    delivery: [\n      { text: \"Ordered Monday, had it in my hands Wednesday. For Lebanon that's honestly impressive. Came well wrapped too.\", author: \"Nadia R., Beirut\" },\n      { text: \"Cash on delivery was a huge relief. No need to stress about online payments. Smooth from start to finish.\", author: \"Ines K., Tripoli\" },\n      { text: \"They deliver to Saida! I always assume online stores stop at Beirut. Got mine in 3 days, perfect condition.\", author: \"Fatima M., Saida\" },\n      { text: \"Second order was even faster than the first. Consistent and reliable — rare to find in Lebanon honestly.\", author: \"Talia B., Achrafieh\" },\n      { text: \"The package was wrapped nicely — felt like a gift even before we opened it. Great attention to detail.\", author: \"Rola A., Tyre\" },\n      { text: \"I ordered last minute before a birthday party. It arrived the next day. Saved me completely.\", author: \"Zeina H., Jounieh\" },\n    ],\n    gift: [\n      { text: \"Bought it as a birthday gift for my nephew. His parents messaged me the same day saying it was the best gift at the party.\", author: \"Christelle M., Beirut\" },\n      { text: \"Everyone at the birthday kept asking where I got it. I felt like the coolest aunt in the room.\", author: \"Ola S., Broumana\" },\n      { text: \"Gifted it for Eid. My sister called me crying happy tears. Her daughter didn't put it down all day.\", author: \"Maya K., Hamra\" },\n      { text: \"I've done toys, clothes, chocolates. Nothing got a reaction like this book. It's the gift that actually means something.\", author: \"Sandra F., Metn\" },\n      { text: \"Bought as a Christmas gift for my friend's daughter. Three months later she still reads it every night apparently.\", author: \"Lina A., Dbayeh\" },\n      { text: \"Ordered for a 3-year-old's birthday. The mom said she slept with the book. That's the review right there.\", author: \"Hind T., Byblos\" },\n    ],\n  };\n\n  let currentTab = 'reaction';\n  let currentPage = 0;\n  const perPage = 3;\n\n  function switchTab(tab, event) {\n    currentTab = tab;\n    currentPage = 0;\n    document.querySelectorAll('.reviews-tab').forEach(btn => btn.classList.remove('active'));\n    event.target.classList.add('active');\n    renderReviews();\n  }\n\n  function renderReviews() {\n    const reviews = allReviews[currentTab];\n    const totalPages = Math.ceil(reviews.length / perPage);\n    const start = currentPage * perPage;\n    const visible = reviews.slice(start, start + perPage);\n\n    document.getElementById('reviews-grid').innerHTML = visible.map(r => `\n      <div class=\"review-card\">\n        <div class=\"review-card-stars\">★★★★★</div>\n        <p class=\"review-card-text\">${r.text}</p>\n        <span class=\"review-card-author\">${r.author}</span>\n      </div>\n    `).join('');\n\n    document.getElementById('reviews-dots').innerHTML = Array.from({length: totalPages}, (_, i) => `\n      <div class=\"reviews-dot ${i === currentPage ? 'active' : ''}\" onclick=\"goToPage(${i})\"></div>\n    `).join('');\n  }\n\n  function goToPage(page) {\n    currentPage = page;\n    renderReviews();\n  }\n\n  renderReviews();\n</script>",
+        "text_alignment": "center"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "recommendations_count": 10,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "",
+        "title": "Related books",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_TGU7rn",
+    "image_with_text_FkapYg",
+    "image_with_text_zYhpaE",
+    "image_with_text_M9tAnx",
+    "scrolling_content_NGWbKx",
+    "steps_iEaAPP",
+    "testimonials_BTEhJt",
+    "custom_liquid_NgB3Di",
+    "related-products"
+  ]
+}
