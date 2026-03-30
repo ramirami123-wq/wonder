@@ -102,7 +102,7 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Book Specifications",
-            "content": "<p>Designed in a large 20x20 format with <strong>25 beautifully printed pages on premium 50g paper</strong>, made to feel as special as the story itself.</p>",
+            "content": "<p>📐 <strong>Size:</strong> 20 x 20 cm — perfect lap size</p><p>📄 <strong>Pages:</strong> 25 hand-drawn coloring pages</p><p>🖨️ <strong>Paper:</strong> Premium 50g paper, smooth finish</p><p>✍️ <strong>Style:</strong> Cozy illustrations with inspirational quotes</p><p>📚 <strong>Binding:</strong> Paperback</p>",
             "liquid": "",
             "page": ""
           }
@@ -143,54 +143,6 @@
         "enable_video_looping": true,
         "enable_image_zoom": false,
         "max_image_zoom_level": 3
-      }
-    },
-    "rich_text_TGU7rn": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_6GPLgk": {
-          "type": "subheading",
-          "settings": {
-            "text": "BEFORE AND AFTER EXAMPLES"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_6GPLgk"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_FkapYg": {
-      "type": "image-with-text",
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/ChatGPT_Image_Mar_4_2026_11_47_36_PM.png",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_zYhpaE": {
-      "type": "image-with-text",
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/ChatGPT_Image_Mar_27_2026_01_35_14_AM.png",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
       }
     },
     "image_with_text_M9tAnx": {
@@ -465,9 +417,6 @@
   },
   "order": [
     "main",
-    "rich_text_TGU7rn",
-    "image_with_text_FkapYg",
-    "image_with_text_zYhpaE",
     "image_with_text_M9tAnx",
     "scrolling_content_NGWbKx",
     "steps_iEaAPP",
