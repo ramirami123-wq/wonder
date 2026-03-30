@@ -65,6 +65,7 @@
         "step_WEYer4",
         "step_7cbGEb"
       ],
+      "disabled": true,
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How DreamStories Works</h2>",
@@ -152,7 +153,7 @@
         "heading_ByE4Bn": {
           "type": "heading",
           "settings": {
-            "text": "Pick your storybook",
+            "text": "Pick your Colouring Book",
             "heading_tag": "h1"
           }
         }
