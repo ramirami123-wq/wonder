@@ -33,6 +33,18 @@
         "mobile_font_size": 10
       }
     },
+    "custom_liquid_683qJV": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div class=\"ds-sale-bar\">\n  <svg class=\"ds-wave\" viewBox=\"0 0 1440 58\" preserveAspectRatio=\"none\">\n    <path d=\"M0,20 C180,50 360,0 540,25 C720,50 900,5 1080,28 C1260,50 1380,15 1440,20 L1440,58 L0,58 Z\" fill=\"rgba(255,255,255,0.1)\"/>\n    <path d=\"M0,35 C200,10 400,50 600,30 C800,10 1000,45 1200,25 C1320,15 1400,38 1440,35 L1440,58 L0,58 Z\" fill=\"rgba(255,255,255,0.07)\"/>\n  </svg>\n\n  <div class=\"ds-sale-bar__text\">\n    <span class=\"ds-sale-bar__title\">SPRING SPECIAL SALE <em>LB</em></span>\n    <span class=\"ds-sale-bar__sub\">UP TO 30%</span>\n  </div>\n\n  <div class=\"ds-sale-bar__timer\">\n    <div class=\"ds-timer-unit\">\n      <span class=\"ds-digit\" id=\"dsb-hours\">00</span>\n      <span class=\"ds-unit-label\">HRS</span>\n    </div>\n    <span class=\"ds-timer-colon\">:</span>\n    <div class=\"ds-timer-unit\">\n      <span class=\"ds-digit\" id=\"dsb-minutes\">00</span>\n      <span class=\"ds-unit-label\">MIN</span>\n    </div>\n    <span class=\"ds-timer-colon\">:</span>\n    <div class=\"ds-timer-unit\">\n      <span class=\"ds-digit\" id=\"dsb-seconds\">00</span>\n      <span class=\"ds-unit-label\">SEC</span>\n    </div>\n  </div>\n</div>\n\n<style>\n  .ds-sale-bar {\n    position: relative;\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    background: #ff3db0;\n    padding: 0 24px;\n    height: 44px;\n    overflow: hidden;\n    width: 100%;\n    box-sizing: border-box;\n  }\n\n  .ds-wave {\n    position: absolute;\n    bottom: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n  }\n\n  .ds-sale-bar__text {\n    display: flex;\n    flex-direction: column;\n    gap: 0px;\n    z-index: 1;\n  }\n\n  .ds-sale-bar__title {\n    font-size: 11px;\n    font-weight: 900;\n    color: #fff;\n    letter-spacing: 0.08em;\n    text-transform: uppercase;\n    font-family: 'Arial Black', Arial, sans-serif;\n    line-height: 1.2;\n  }\n\n  .ds-sale-bar__title em {\n    font-style: normal;\n    font-size: 9px;\n    opacity: 0.8;\n  }\n\n  .ds-sale-bar__sub {\n    font-size: 10px;\n    font-weight: 800;\n    color: rgba(255,255,255,0.9);\n    letter-spacing: 0.06em;\n    font-family: 'Arial Black', Arial, sans-serif;\n    line-height: 1.2;\n  }\n\n  .ds-sale-bar__timer {\n    display: flex;\n    align-items: center;\n    gap: 3px;\n    z-index: 1;\n  }\n\n  .ds-timer-unit {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    background: rgba(255,255,255,0.2);\n    border: 1px solid rgba(255,255,255,0.4);\n    border-radius: 4px;\n    padding: 3px 8px;\n    min-width: 36px;\n    gap: 0px;\n  }\n\n  .ds-digit {\n    font-size: 14px;\n    font-weight: 900;\n    color: #fff;\n    font-family: 'Arial Black', Arial, sans-serif;\n    line-height: 1;\n    font-variant-numeric: tabular-nums;\n  }\n\n  .ds-unit-label {\n    font-size: 7px;\n    font-weight: 700;\n    color: rgba(255,255,255,0.85);\n    letter-spacing: 0.1em;\n  }\n\n  .ds-timer-colon {\n    font-size: 13px;\n    font-weight: 900;\n    color: rgba(255,255,255,0.8);\n    margin-bottom: 8px;\n    font-family: 'Arial Black', Arial, sans-serif;\n  }\n</style>\n\n<script>\n  (function () {\n    const STORAGE_KEY = 'ds_sale_end_bar';\n    const DURATION = 12 * 60 * 60 * 1000;\n\n    function getEndTime() {\n      let end = parseInt(localStorage.getItem(STORAGE_KEY), 10);\n      if (!end || Date.now() > end) {\n        end = Date.now() + DURATION;\n        localStorage.setItem(STORAGE_KEY, end);\n      }\n      return end;\n    }\n\n    function pad(n) { return String(n).padStart(2, '0'); }\n\n    function tick() {\n      const remaining = getEndTime() - Date.now();\n      if (remaining <= 0) { localStorage.removeItem(STORAGE_KEY); return; }\n      const h = Math.floor(remaining / 3600000);\n      const m = Math.floor((remaining % 3600000) / 60000);\n      const s = Math.floor((remaining % 60000) / 1000);\n      document.getElementById('dsb-hours').textContent = pad(h);\n      document.getElementById('dsb-minutes').textContent = pad(m);\n      document.getElementById('dsb-seconds').textContent = pad(s);\n    }\n\n    tick();\n    setInterval(tick, 1000);\n  })();\n</script>",
+        "text_alignment": "center"
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
@@ -57,18 +69,6 @@
         "show_country_flag": true,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff"
-      }
-    },
-    "custom_liquid_683qJV": {
-      "type": "custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": false,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div id=\"announcement-bar\" style=\"background:#1a1a1a;padding:0 20px;display:flex;align-items:center;justify-content:center;gap:16px;height:44px;font-family:'Arial Black',Arial,sans-serif;\">\n  <span style=\"color:#fff;font-size:13px;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;white-space:nowrap;\">\n    ⚡ Sale ends in\n  </span>\n  <div style=\"display:flex;align-items:center;gap:4px;\">\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-hrs\">00</div>\n    <span style=\"color:#fff;font-weight:900;font-size:16px;\">:</span>\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-min\">00</div>\n    <span style=\"color:#fff;font-weight:900;font-size:16px;\">:</span>\n    <div style=\"background:#fff;color:#1a1a1a;font-size:15px;font-weight:900;min-width:36px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:3px;\" id=\"ab-sec\">00</div>\n  </div>\n</div>\n\n<script>\n(function() {\n  // SET YOUR END DATE/TIME HERE (local time)\n  var endTime = new Date();\n  endTime.setHours(endTime.getHours() + 11);\n  endTime.setMinutes(endTime.getMinutes() + 10);\n  endTime.setSeconds(endTime.getSeconds() + 21);\n\n  // To set a fixed deadline instead, replace the above with:\n  // var endTime = new Date(\"2026-04-01T23:59:59\");\n\n  function update() {\n    var now = new Date();\n    var diff = Math.max(0, endTime - now);\n    var h = Math.floor(diff / 3600000);\n    var m = Math.floor((diff % 3600000) / 60000);\n    var s = Math.floor((diff % 60000) / 1000);\n    document.getElementById('ab-hrs').textContent = String(h).padStart(2,'0');\n    document.getElementById('ab-min').textContent = String(m).padStart(2,'0');\n    document.getElementById('ab-sec').textContent = String(s).padStart(2,'0');\n    if (diff > 0) setTimeout(update, 1000);\n  }\n  update();\n})();\n</script>",
-        "text_alignment": "center"
       }
     }
   },
