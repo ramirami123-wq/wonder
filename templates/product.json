@@ -12,8 +12,15 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "liquid_J3Ebhn": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"ds-rating\">\n  <span class=\"ds-rating__stars\">★★★★★</span>\n  <span class=\"ds-rating__text\">rated by <strong id=\"ds-rating-count\"></strong> customers</span>\n</div>\n\n<style>\n  .ds-rating {\n    display: inline-flex;\n    align-items: center;\n    gap: 8px;\n    font-family: inherit;\n  }\n\n  .ds-rating__stars {\n    color: #f5c518;\n    font-size: 20px;\n    letter-spacing: 2px;\n    line-height: 1;\n  }\n\n  .ds-rating__text {\n    font-size: 14px;\n    color: #222;\n  }\n\n  .ds-rating__text strong {\n    font-weight: 700;\n  }\n</style>\n\n<script>\n  document.getElementById('ds-rating-count').textContent =\n    (Math.floor(Math.random() * 51) + 500) + '+';\n</script>"
+          }
+        },
         "text_zDcbFq": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>⭐⭐⭐⭐⭐ rated by 589+ customers</p>"
           }
@@ -121,6 +128,7 @@
         }
       },
       "block_order": [
+        "liquid_J3Ebhn",
         "text_zDcbFq",
         "title",
         "price",
