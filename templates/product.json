@@ -99,7 +99,7 @@
         "liquid_NxQerx": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"ds-note\">\n  <span class=\"ds-note__icon\">🎨</span>\n  <p class=\"ds-note__text\">\n    Our books are <strong>softcover</strong> with a <strong>cartoon style</strong> — the character won't look exactly like your child's photo, but will bring them to life in a magical way!\n  </p>\n</div>\n\n<style>\n  .ds-note {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    background: #fff8ee;\n    border: 2px dashed #f5c97a;\n    border-radius: 12px;\n    padding: 12px 16px;\n    margin: 16px 0;\n  }\n\n  .ds-note__icon {\n    font-size: 20px;\n    flex-shrink: 0;\n  }\n\n  .ds-note__text {\n    margin: 0;\n    font-size: 13px;\n    color: #5a3e28;\n    line-height: 1.5;\n  }\n\n  .ds-note__text strong {\n    color: #c67000;\n  }\n</style>"
+            "liquid": ""
           }
         },
         "description": {
@@ -115,8 +115,8 @@
             "show_below_gallery": true,
             "icon": "none",
             "title": "Book Specifications",
-            "content": "<p>Designed in a large 20x20 format with <strong>25 beautifully printed pages on premium 50g paper</strong>, made to feel as special as the story itself.</p>",
-            "liquid": "",
+            "content": "",
+            "liquid": "<div class=\"ds-note\">\nDesigned in a large 20x20 format with 25 beautifully printed pages on premium 50g paper, made to feel as special as the story itself.\n  <span class=\"ds-note__icon\">✨</span>\n  <p class=\"ds-note__text\">\n    Every book features a <strong>custom cartoon illustration</strong> inspired by your child — their own storybook twin, brought to life in a beautiful <strong>softcover</strong> print!\n  </p>\n</div>\n\n<style>\n  .ds-note {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    background: #fff8ee;\n    border: 2px dashed #f5c97a;\n    border-radius: 12px;\n    padding: 12px 16px;\n    margin: 16px 0;\n  }\n\n  .ds-note__icon {\n    font-size: 20px;\n    flex-shrink: 0;\n  }\n\n  .ds-note__text {\n    margin: 0;\n    font-size: 13px;\n    color: #5a3e28;\n    line-height: 1.5;\n  }\n\n  .ds-note__text strong {\n    color: #c67000;\n  }\n</style>",
             "page": ""
           }
         },
