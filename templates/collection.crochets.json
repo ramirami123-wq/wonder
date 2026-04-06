@@ -1,0 +1,372 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_size": "auto",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_image": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "1774861384739e5d97": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6f22d22_NXhmFk": {
+          "type": "ai_gen_block_6f22d22",
+          "settings": {
+            "spacing_desktop": 60,
+            "spacing_mobile": 40,
+            "background_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6f22d22_NXhmFk"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "steps_AHLpw6": {
+      "type": "steps",
+      "blocks": {
+        "step_UQM3JJ": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_1.png",
+            "text": "<h3>Pick Storybook</h3>"
+          }
+        },
+        "step_CgCTR7": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_2_1.png",
+            "text": "<p>Add your Child's Picture</p>"
+          }
+        },
+        "step_WEYer4": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_3.png",
+            "text": "<p>Complete Your Order</p>"
+          }
+        },
+        "step_7cbGEb": {
+          "type": "step",
+          "settings": {
+            "image": "shopify://shop_images/step_4.png",
+            "text": "<p><strong>Your story is printed with care and delivered with joy.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_UQM3JJ",
+        "step_CgCTR7",
+        "step_WEYer4",
+        "step_7cbGEb"
+      ],
+      "disabled": true,
+      "name": "SS - Steps #4",
+      "settings": {
+        "heading": "<h2>How DreamStories Works</h2>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "heading_align": "center",
+        "heading_align_mobile": "center",
+        "body_gap": 64,
+        "body_gap_mobile": 56,
+        "body_mt": 72,
+        "body_mt_mobile": 50,
+        "use_slider": true,
+        "slider_view_mobile": 1.3,
+        "slider_gap_mobile": 20,
+        "image_radius": 16,
+        "image_border_thickness": 2,
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "circle_number_size": 40,
+        "circle_number_size_mobile": 40,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 18,
+        "number_size_mobile": 18,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 18,
+        "text_height": 130,
+        "text_mt": 24,
+        "text_align": "center",
+        "text_align_mobile": "center",
+        "button": "",
+        "button_url": "",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 200,
+        "button_width_mobile": 200,
+        "button_mt": 70,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 14,
+        "button_padding_horizontal": 22,
+        "button_padding_horizontal_mobile": 22,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_align": "center",
+        "button_align_mobile": "center",
+        "button_style": "non_outline",
+        "image_border_color": "#7a2fd6",
+        "circle_number_bg_color": "#7a2fd6",
+        "number_color": "#ffffff",
+        "text_color": "#000000",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#7a2fd6",
+        "button_bg_hover_color": "#000000",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "heading_color": "#000000",
+        "background_color": "#ffffff",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 130,
+        "border_thickness": 0,
+        "lazy": true
+      }
+    },
+    "slideshow_itg78y": {
+      "type": "slideshow",
+      "blocks": {
+        "image_pRA3j6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_Mar_30_2026_12_13_55_PM.png",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 0,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_pRA3j6"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "allow_transparent_header": false,
+        "show_next_section_button": false,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": false,
+        "autoplay_pause_on_video": false,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "rich_text_fdHwAY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ByE4Bn": {
+          "type": "heading",
+          "settings": {
+            "text": "Pick your Colouring Book",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ByE4Bn"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "video_jjriRj": {
+      "type": "video",
+      "disabled": true,
+      "name": "t:sections.video.presets.video.name",
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify://files/videos/video-preview.mp4",
+        "external_video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "",
+        "hide_product_information": false,
+        "products_per_page": 48,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "sidebar",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": false
+      }
+    },
+    "collection_list_7p3LDe": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_4UfzzV": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "frontpage",
+            "image": "shopify://shop_images/2-4.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 2-4",
+            "button_text": "View products",
+            "button_link": "shopify://collections/frontpage",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_kA3xPV": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "4-6",
+            "image": "shopify://shop_images/4-6.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 4-6",
+            "button_text": "View products",
+            "button_link": "shopify://collections/4-6",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "collection_gYRgff": {
+          "type": "collection",
+          "settings": {
+            "color_scheme": "",
+            "collection": "6-8",
+            "image": "shopify://shop_images/6-8.png",
+            "expand_collection": false,
+            "content_position": "place-self-end-start text-start",
+            "subheading": "",
+            "title": "Age 6-8",
+            "button_text": "View products",
+            "button_link": "shopify://collections/6-8",
+            "button_style": "solid",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "collection_4UfzzV",
+        "collection_kA3xPV",
+        "collection_gYRgff"
+      ],
+      "disabled": true,
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "show_text_outside": false,
+        "space_items": true,
+        "stack_collections": true,
+        "collections_per_row_mobile": "1",
+        "collections_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Browse Stories by Age",
+        "content": ""
+      }
+    },
+    "custom_liquid_89DC9x": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<section class=\"trust-bar\">\n  <div class=\"trust-bar__inner\">\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">🚚</div>\n      <div class=\"trust-text\">\n        <span class=\"trust-title\">Free Delivery</span>\n        <span class=\"trust-sub\">on orders above $34</span>\n      </div>\n    </div>\n    <div class=\"trust-divider\"></div>\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">🌸</div>\n      <div class=\"trust-text\">\n        <span class=\"trust-title\">Loved by Girls</span>\n        <span class=\"trust-sub\">across Lebanon</span>\n      </div>\n    </div>\n    <div class=\"trust-divider\"></div>\n    <div class=\"trust-item\">\n      <div class=\"trust-icon\">📦</div>\n      <div class=\"trust-text\">\n        <span class=\"trust-title\">Fast Local Shipping</span>\n        <span class=\"trust-sub\">delivered to your door</span>\n      </div>\n    </div>\n  </div>\n</section>\n\n<style>\n  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');\n\n  .trust-bar {\n    width: 100%;\n    background: #fff5f7;\n    border-top: 1.5px solid #f9d0db;\n    border-bottom: 1.5px solid #f9d0db;\n    padding: 18px 40px;\n    font-family: 'Nunito', sans-serif;\n    box-sizing: border-box;\n  }\n\n  .trust-bar__inner {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    width: 100%;\n    flex-wrap: wrap;\n  }\n\n  .trust-item {\n    display: flex;\n    align-items: center;\n    gap: 12px;\n    flex: 1;\n    justify-content: center;\n    padding: 6px 20px;\n    transition: transform 0.2s ease;\n    min-width: 160px;\n  }\n\n  .trust-item:hover {\n    transform: translateY(-2px);\n  }\n\n  .trust-icon {\n    font-size: 24px;\n    line-height: 1;\n    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));\n  }\n\n  .trust-text {\n    display: flex;\n    flex-direction: column;\n    gap: 2px;\n  }\n\n  .trust-title {\n    font-size: 13.5px;\n    font-weight: 700;\n    color: #c2556e;\n    letter-spacing: 0.01em;\n    white-space: nowrap;\n  }\n\n  .trust-sub {\n    font-size: 12px;\n    font-weight: 400;\n    color: #b07a88;\n    white-space: nowrap;\n  }\n\n  .trust-divider {\n    width: 1.5px;\n    height: 38px;\n    background: #f0b8c8;\n    border-radius: 999px;\n    flex-shrink: 0;\n  }\n\n  @media (max-width: 600px) {\n    .trust-bar {\n      padding: 16px 20px;\n    }\n    .trust-bar__inner {\n      flex-direction: column;\n      gap: 12px;\n    }\n    .trust-divider {\n      width: 60px;\n      height: 1.5px;\n    }\n    .trust-item {\n      padding: 4px 0;\n      width: 100%;\n    }\n  }\n</style>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "1774861384739e5d97",
+    "steps_AHLpw6",
+    "slideshow_itg78y",
+    "rich_text_fdHwAY",
+    "video_jjriRj",
+    "main",
+    "collection_list_7p3LDe",
+    "custom_liquid_89DC9x"
+  ]
+}
