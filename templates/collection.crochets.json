@@ -199,6 +199,7 @@
       "block_order": [
         "image_pRA3j6"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": false,
@@ -218,7 +219,7 @@
         "heading_ByE4Bn": {
           "type": "heading",
           "settings": {
-            "text": "Pick your Colouring Book",
+            "text": "Pick your Crochet",
             "heading_tag": "h1"
           }
         }
