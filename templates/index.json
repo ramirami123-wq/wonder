@@ -28,7 +28,7 @@
         "image_d8qKYr": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2-4.png",
+            "image": "shopify://shop_images/1-cozy-moments-4.webp",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -74,7 +74,7 @@
         "collection_NHpXj3": {
           "type": "collection",
           "settings": {
-            "collection": "books",
+            "collection": "girl-therapy-books",
             "products_count": 8,
             "title": "",
             "link_url": "",
@@ -95,7 +95,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "Personalise a bestseller"
+        "subheading": "Pick a bestseller"
       }
     },
     "steps_qUExCV": {
@@ -136,6 +136,7 @@
         "step_eqBiKH",
         "step_EiaJgJ"
       ],
+      "disabled": true,
       "name": "SS - Steps #4",
       "settings": {
         "heading": "<h2>How Dreamstories Works</h2>",
@@ -234,6 +235,7 @@
       "block_order": [
         "collection_hkCwdm"
       ],
+      "disabled": true,
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "color_scheme": "",
@@ -273,7 +275,7 @@
         "section_vertical_spacing_desktop": 80,
         "item_horizontal_spacing_mobile": 80,
         "item_horizontal_spacing_desktop": 120,
-        "background": "#020049",
+        "background": "#4c2b19",
         "text_color": "#ffffff"
       }
     },
@@ -294,6 +296,7 @@
       "block_order": [
         "collection_kGMyB8"
       ],
+      "disabled": true,
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
         "color_scheme": "",
@@ -367,6 +370,7 @@
         "collection_izCFjy",
         "collection_HRyTkR"
       ],
+      "disabled": true,
       "name": "t:sections.collection_list.presets.collection_list.name",
       "settings": {
         "color_scheme": "",
