@@ -380,6 +380,18 @@
         "content": ""
       }
     },
+    "custom_liquid_gGCwkQ": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .feature-grid {\n    display: grid;\n    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));\n    gap: 10px;\n    margin-top: 16px;\n  }\n  .feature-card {\n    background: #f5f5f0;\n    border-radius: 12px;\n    padding: 14px 16px;\n  }\n  .feature-icon {\n    font-size: 20px;\n    margin-bottom: 8px;\n  }\n  .feature-name {\n    font-size: 13px;\n    font-weight: 500;\n    color: #1a1a1a;\n    margin-bottom: 4px;\n  }\n  .feature-desc {\n    font-size: 12px;\n    color: #666;\n    line-height: 1.55;\n  }\n</style>\n\n<h3 style=\"font-size:15px; font-weight:500; color:#1a1a1a;\">Why you'll love them</h3>\n<div class=\"feature-grid\">\n  <div class=\"feature-card\">\n    <div class=\"feature-icon\">🖌️</div>\n    <p class=\"feature-name\">Dual tip</p>\n    <p class=\"feature-desc\">Brush nib for big fills, fine tip for details & outlines</p>\n  </div>\n  <div class=\"feature-card\">\n    <div class=\"feature-icon\">✨</div>\n    <p class=\"feature-name\">Streak-free blending</p>\n    <p class=\"feature-desc\">Alcohol ink blends beautifully — like watercolor, without the wait</p>\n  </div>\n  <div class=\"feature-card\">\n    <div class=\"feature-icon\">🎨</div>\n    <p class=\"feature-name\">24 curated shades</p>\n    <p class=\"feature-desc\">Warm, cool, neutrals, skin tones — everything you need in one set</p>\n  </div>\n  <div class=\"feature-card\">\n    <div class=\"feature-icon\">💧</div>\n    <p class=\"feature-name\"> blendable</p>\n    <p class=\"feature-desc\">Long-lasting ink, compatible with colorless blenders</p>\n  </div>\n</div>",
+        "text_alignment": "center"
+      }
+    },
     "custom_liquid_NgB3Di": {
       "type": "custom-liquid",
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
@@ -416,6 +428,7 @@
     "scrolling_content_NGWbKx",
     "steps_iEaAPP",
     "testimonials_BTEhJt",
+    "custom_liquid_gGCwkQ",
     "custom_liquid_NgB3Di",
     "related-products"
   ]
